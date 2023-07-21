@@ -290,17 +290,17 @@ button{
     width: 100%;
     padding: 1rem;
 }
-.s5-card1{
+/* .s5-card1{
     position: relative;
     top: 10%;
     left: 13%;
     
-}
-.s5-card2{
+} */
+/* .s5-card2{
     position: relative;
     top: 50%;
     left: 64%;
-}
+} */
 
 
 /* section six */
@@ -455,6 +455,7 @@ button{
     width: 100%;
     border: 1px solid #ebebe9;
     padding: 1rem;
+    gap: 1rem;
 }
 .card-name{
     font-size: .7rem;
@@ -527,15 +528,15 @@ button{
     justify-content: center;
     align-items: center;
     /* border: 1px solid; */
-    padding: 1rem;
+    padding: .5rem;
     /* border-bottom: none; */
     
     
  }
 
  .s8-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+   
  }
  .s8-g5 {
  
@@ -548,7 +549,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: .5rem;
     /* border-top: 1px solid; */
     
    
@@ -562,7 +563,7 @@ button{
  
     grid-row-end: 5;
     grid-column-end: 5;
-    padding: 1rem;
+    padding: .5rem;
     
     
  }
@@ -664,7 +665,18 @@ button{
 .nine-para{
     width: 60%;
 }
-
+.s9-c9{
+    border-left: 1px solid;
+    padding: 1rem;
+}
+.content-nine{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.heading-s9{
+    font-size: 2rem;
+}
 
 
 
@@ -678,7 +690,7 @@ button{
     
      /* padding: 2rem; */
      grid-template-columns: 1fr;
-     border-bottom: 1px solid;
+     /* border-bottom: 1px solid; */
  }
 .heading-ten{
     font-size: 2rem;
@@ -691,8 +703,8 @@ button{
 }
 
 .s10-c10{
-    border-left: 1px solid;
-    padding: 2rem;
+    /* border-left: 1px solid; */
+    padding: 1rem;
 }
 
 
@@ -735,7 +747,7 @@ input{
     height: 3rem;
     border-radius: 8px;
     border:1px solid #fff;
-    width: 30%;
+    width: 90%;
     padding-left: 1rem;
 }
 
@@ -744,7 +756,7 @@ input{
 .section-twelve{
     width: 100%;
     padding-bottom: 2rem;
-  
+    padding-top: 2rem;
     background-color: #384353;
     color: #fff;
 } 
@@ -754,6 +766,7 @@ input{
     /* grid-template-columns: repeat( auto-fill, minmax(400px, 1fr) ); */
     grid-template-columns: 1fr 1fr;
     border: 1px solid #fff;
+    
 }
 .section-twelve-points{
     display: flex;
@@ -774,4 +787,73 @@ input{
    padding-top: 2rem;
    align-items: center;
    height: 5rem;
+}
+
+
+
+@media (min-width: 768px){
+
+.navbar{
+    width: 98%;
+}
+.nav-heading{
+    font-size: 3rem;
+}
+.heading-one{
+    width: 70%;
+    font-size: 3rem;
+}
+.s2-heading{
+    width: 100%;
+    font-size: 2.5rem;
+}
+#item-6{
+    position: relative;
+    top: 1rem;
+}
+.card-details{
+    display: flex;
+    flex-direction: row;
+}
+.card-name{
+    font-size: 1rem;
+}
+.two,.three,.four,.five,.six,.seven,.eight,.nine{
+    gap: 1rem;
+}
+.data{
+    order: 0;
+}
+.data-section{
+    text-align: center;
+    padding-top: 2rem;
+}
+.s5-card1,.s5-card2{
+    display: block;
+    background-color: #fff;
+    width: 30%;
+    height: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.s5-card1{
+    position: relative;
+    top: 30%;
+    left: 13%;
+    
+}
+.s5-card2{
+    position: relative;
+    top: 30%;
+    left: 26%;
+    
+}
+.s5-img{
+    max-width: 100%; 
+    height: auto; 
+}
+
 }
