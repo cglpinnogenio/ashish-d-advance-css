@@ -20,6 +20,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     
+    
 }
 .navbar{
     width: 90%;
@@ -28,6 +29,7 @@ body{
     justify-items: center;
     align-items: center;
     padding-top: 1rem;
+    padding-left: 1rem;
 }
 .nav-heading{
     color: #fff;
@@ -36,6 +38,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 .shop,.bag{
     display: flex;
@@ -45,24 +48,27 @@ body{
 }
 .heading{
     width: 100%;
-    min-height: 800px;
-    display: grid;
-    justify-items: center;
+    min-height: 777px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-content: center;
+    gap: 3rem;
 
    
 }
 .heading-one{
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;  
     color: #fff;
-    width: 60%;
+    width: 100%;
     margin: auto;
+    text-align: center;
 }
 button{
     width: 12rem;
-    padding: 1rem;
-    border-radius: 1rem;
+    padding: .7rem;
+    border-radius: .7rem;
     border: none;
     margin-top: 1rem;
 }
@@ -178,6 +184,9 @@ button{
     width: 100%;
     text-align: center;
 }
+.s2-img2{
+    width: 100%;
+}
 
 
 
@@ -187,10 +196,10 @@ button{
     width: 100%;
    
 }
-.grid-container{
+/* .grid-container{
     padding-top: 1rem;
     padding-bottom: 1rem;
-}
+} */
 
 
 
@@ -200,7 +209,7 @@ button{
     font-size: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    border: 1px solid;
+    border: 1px solid #ebebe9;
    
 }
 
@@ -210,17 +219,17 @@ button{
     font-size: 1rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    border: 1px solid;
+    border: 1px solid #ebebe9;
 }
 
 
 
 /* section four */
 
-.parent2{
+.grid-container-four{
    
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: repeat(2, 1fr); */
     
 }
 .data{
@@ -229,13 +238,16 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    order: 1;
 }
+
 .data-section{
-    width: 50%;
+    width: 88%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
     margin: auto;
+    padding-bottom: 2rem;
 }
 .data-heading{
     font-size: 2rem;
@@ -245,6 +257,8 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
+    background-color:#384353;
 }
 
 /* section five */
@@ -296,12 +310,12 @@ button{
     background-color: #384353;
 }
 
-.grid-container-six{
-    /* display: grid;
+/* .grid-container-six{
+    display: grid;
     grid-template-columns: 5% 50% 45% ;
-    grid-auto-rows: minmax(10px, auto); */
+    grid-auto-rows: minmax(10px, auto);
     
-}
+} */
 
 .s6one {
     grid-column: 1 / 2;
@@ -421,11 +435,11 @@ button{
     color: #fff;
 }
 
-.grid-container {
+.grid-container-three,.grid-container-seven {
         display: grid;
         /* grid-template-columns: repeat( auto-fill, minmax(400px, 1fr) ); */
         grid-template-columns: 1fr 1fr;
-        gap: 2rem;
+        /* gap: 2rem; */
       
  }
 .card-details{
@@ -439,22 +453,24 @@ button{
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    border: 1px solid #ebebe9;
+    padding: 1rem;
 }
 .card-name{
-    font-size: .8rem;
+    font-size: .7rem;
 }
 
 
 /* section eight */
 
-.grid-container-eight {
-    /* display: grid; 
+/* .grid-container-eight {
+    display: grid; 
     grid-auto-rows: minmax(10px, auto);
     grid-template-rows: 35% 1fr 1fr;
     grid-template-columns: 5% 1fr 1fr 1fr;
-    height: 100%; */
+    height: 100%;
     
- }
+ } */
    
  .s8-g1 {
  
@@ -496,10 +512,7 @@ button{
     grid-row-end: 5;
     grid-column-end: 2;
     border-bottom: 1px solid;
-
-    
-    
-    
+    display: none;
     
  }
  .s8-g4 {
@@ -513,12 +526,16 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid;
+    /* border: 1px solid; */
     padding: 1rem;
-    border-bottom: none;
+    /* border-bottom: none; */
     
- 
     
+ }
+
+ .s8-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
  }
  .s8-g5 {
  
@@ -532,7 +549,7 @@ button{
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    border-top: 1px solid;
+    /* border-top: 1px solid; */
     
    
     
@@ -586,6 +603,7 @@ button{
     position: relative;
     left: 43%;
     top: 20%;
+    display: none;
 }
 
 
@@ -627,6 +645,7 @@ button{
     padding: 1rem;
     display: flex;
     align-items: center;
+    display: none;
     
   }
 
