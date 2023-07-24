@@ -10,6 +10,7 @@
 body{
     margin: 0;
     width: 100%;
+   
 }
 
 .section-one{
@@ -23,13 +24,14 @@ body{
     
 }
 .navbar{
-    width: 90%;
+    width: 100%;
     display: grid;
     grid-template-columns: 15% 70% 15%;
     justify-items: center;
     align-items: center;
     padding-top: 1rem;
     padding-left: 1rem;
+    padding-right: 1.5rem;
 }
 .nav-heading{
     color: #fff;
@@ -62,7 +64,6 @@ body{
     font-weight: bold;  
     color: #fff;
     width: 100%;
-    margin: auto;
     text-align: center;
 }
 button{
@@ -71,6 +72,8 @@ button{
     border-radius: .7rem;
     border: none;
     margin-top: 1rem;
+    background-color: #fff;
+    border: 1px solid #ebebe9;
 }
 
 
@@ -175,8 +178,8 @@ button{
     
 
 .s2-heading{
-    font-size: 3rem;
-    width: 70%;
+    font-size: 1rem;
+    width: 100%;
     text-align: center;
  }
 
@@ -227,10 +230,8 @@ button{
 /* section four */
 
 .grid-container-four{
-   
     display: grid;
     /* grid-template-columns: repeat(2, 1fr); */
-    
 }
 .data{
     background-color:#384353;
@@ -276,7 +277,6 @@ button{
 .s5-card1,.s5-card2{
     background-color: #fff;
     width: 14%;
-    height: 38%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -310,12 +310,7 @@ button{
     background-color: #384353;
 }
 
-/* .grid-container-six{
-    display: grid;
-    grid-template-columns: 5% 50% 45% ;
-    grid-auto-rows: minmax(10px, auto);
-    
-} */
+
 
 .s6one {
     grid-column: 1 / 2;
@@ -330,7 +325,7 @@ button{
   .s6two {
     grid-column: 2 / 3;
     grid-row: 1 / 8;
-    /* border: 1px solid; */
+  
 
     
     
@@ -437,9 +432,7 @@ button{
 
 .grid-container-three,.grid-container-seven {
         display: grid;
-        /* grid-template-columns: repeat( auto-fill, minmax(400px, 1fr) ); */
         grid-template-columns: 1fr 1fr;
-        /* gap: 2rem; */
       
  }
 .card-details{
@@ -464,15 +457,7 @@ button{
 
 /* section eight */
 
-/* .grid-container-eight {
-    display: grid; 
-    grid-auto-rows: minmax(10px, auto);
-    grid-template-rows: 35% 1fr 1fr;
-    grid-template-columns: 5% 1fr 1fr 1fr;
-    height: 100%;
-    
- } */
-   
+
  .s8-g1 {
  
    
@@ -600,12 +585,7 @@ button{
     background-size: cover;
 }
 
-.s8-two-img{
-    position: relative;
-    left: 43%;
-    top: 20%;
-    display: none;
-}
+
 
 
 
@@ -640,15 +620,7 @@ button{
     grid-column: 3 / 5;
     padding: 2rem;
 }
-  .side{
-    writing-mode:vertical-lr;
-    rotate: 180deg;
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    display: none;
-    
-  }
+
 
 .heading-nine{
     font-size: 4rem;
@@ -660,13 +632,13 @@ button{
     gap: 2rem;
     padding: 2rem;
     justify-content: center;
-    border-left: 1px solid;
+    border-left: 1px solid #ebebe9;
 }
 .nine-para{
     width: 60%;
 }
 .s9-c9{
-    border-left: 1px solid;
+    border-left: 1px solid #ebebe9;
     padding: 1rem;
 }
 .content-nine{
@@ -808,8 +780,7 @@ input{
     font-size: 2.5rem;
 }
 #item-6{
-    position: relative;
-    top: 1rem;
+    padding-top: 1rem;
 }
 .card-details{
     display: flex;
@@ -828,32 +799,332 @@ input{
     text-align: center;
     padding-top: 2rem;
 }
+.section-five{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
 .s5-card1,.s5-card2{
     display: block;
     background-color: #fff;
     width: 30%;
-    height: 38%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     
 }
+
+.s5-img{
+    width: 100%; 
+    height: 12rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s5-card-info{
+    display: flex;
+    justify-content: space-around;
+}
+.s6para{
+    width: 80%;
+}
+.s6-line-content{
+    display: flex;
+    justify-content: space-around;
+}
+.s8-grid{
+    display: flex;
+    justify-content: space-around;
+}
+
+}
+
+@media (min-width: 800px){
+
+.heading-one{
+    width: 85%;
+}
+}
+
+
+@media (min-width: 1000px){
+
+.grid-container-ten{
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(33%, 1fr) );
+}
+.heading-eleven{
+    font-size: 4rem;
+}
+input{
+    width: 50%;
+}
+
+}
+
+@media (min-width: 1400px){
+
+.navbar{
+    width: 100%;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+
+}
+.heading-one-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading-one{
+    font-size: 5rem;
+    width: 54%;
+}
+.s2-heading{
+    font-size: 4rem;
+    width: 78%;
+}
+.grid-container-three,.grid-container-seven {
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(25%, 1fr) );
+
+}
+.grid-container-four{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.data-section{
+    width: 50%;
+    text-align: left;
+}
+.s4-img{
+    padding: 0;
+}
+.section-five{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+.s5-card1,.s5-card2{
+    display: block;
+    background-color: #fff;
+    width: 14%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    
+}
 .s5-card1{
     position: relative;
-    top: 30%;
-    left: 13%;
+    top: -13%;
+    left: -5%;
     
 }
 .s5-card2{
     position: relative;
-    top: 30%;
-    left: 26%;
+    top: 16%;
+    left: 9%;
     
 }
 .s5-img{
-    max-width: 100%; 
-    height: auto; 
+    height: 13rem;
+}
+.s5-card-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.s5-card-details{
+    font-size: .8rem;
 }
 
+.grid-container-six{
+    display: grid;
+    grid-template-columns: 5% 50% 45% ;
+    grid-auto-rows: minmax(10px, auto);
+    
+}
+.s6one{
+    display: block;
+    display: flex;
+    align-items: flex-end;
+     justify-content: center;
+}
+.s6two {
+    border: 1px solid;
+}
+.s6content{
+    gap: 25rem;
+}
+ .side{
+    writing-mode:vertical-lr;
+    rotate: 180deg;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    
+ }
+.grid-container-eight {
+    display: grid; 
+    grid-auto-rows: minmax(10px, auto);
+    grid-template-rows: 30% 1fr 1fr;
+    grid-template-columns: 5% 1fr 1fr 1fr;
+    /* height: 100%; */
+    
+ }
+   
+ .s8-g1 {
+ 
+   
+    grid-row-start: 1;
+    grid-column-start: 1;
+ 
+    grid-row-end: 3;
+    grid-column-end: 2;
+    display:block;
+    
+    
+ }
+ .s8-g2 {
+ 
+    
+    grid-row-start: 1;
+    grid-column-start: 2;
+ 
+    grid-row-end: 3;
+    grid-column-end: 5;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    gap: 2rem;
+    border-left: 1px solid #ebebe9;
+    padding-top: 7rem;
+    padding-bottom: 6rem;
+    
+    
+ }
+ .s8-g3 {
+ 
+   
+    grid-row-start: 3;
+    grid-column-start: 1;
+ 
+    grid-row-end: 5;
+    grid-column-end: 2;
+    border-bottom: 1px solid #ebebe9;
+    display: block;
+    
+ }
+ .s8-g4 {
+ 
+     
+    grid-row-start: 3;
+    grid-column-start: 2;
+ 
+    grid-row-end: 5;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ebebe9;
+    padding: .5rem;
+    border-bottom: none;
+    
+    
+ }
+
+ .s8-grid{
+   display: flex;
+   flex-direction: column;
+   
+   
+ }
+ .s8-g5 {
+ 
+   
+    grid-row-start: 3;
+    grid-column-start: 4;
+ 
+    grid-row-end: 4;
+    grid-column-end: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    border-top: 1px solid #ebebe9;
+    
+   
+    
+ }
+ .s8-g6 {
+ 
+     
+    grid-row-start: 4;
+    grid-column-start: 4;
+ 
+    grid-row-end: 5;
+    grid-column-end: 5;
+    padding: .5rem;
+    
+    
+ }
+ .s8-img2{
+    position: relative;
+    left: 43%;
+    top: 20%;
+    
+}
+.s8-heading{
+    font-size: 4rem;
+}
+.s8-para{
+    width: 35%;
+}
+.s9-c9{
+    display: none;
+}
+.grid-container-nine { 
+    border: 1px solid #ebebe9; 
+    display: grid;
+    grid-template-columns: 5% 45% 50%;
+    grid-template-areas:
+      "child-one child-two child-three"
+      "child-one child-two child-three"
+      "child-one child-two child-three"
+      "child-one child-two child-three";
+      
+  }
+.grid-container-ten{
+   
+    border-bottom: 1px solid #ebebe9;
+}
+
+.s10-c10{
+   border-left: 1px solid #ebebe9;
+ 
+}
+.heading-eleven{
+    width: 40%;
+}
+input{
+    width: 24%;
+}
+.grid-containe-twelve{
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(25%, 1fr) );
+    border: 1px solid #fff;
+    
+}
+.section-twelve{
+    padding-top: 0;
+}
 }
