@@ -73,9 +73,18 @@ body{
 span{
     font-family: ritalic;
 }
-button{
+.button1{
     width: 12rem;
     padding: .7rem;
+    border-radius: .7rem;
+    border: none;
+    margin-top: 1rem;
+    background-color: #fff;
+    border: 1px solid #ebebe9;
+}
+.button2{
+    width: 10rem;
+    padding: .5rem;
     border-radius: .7rem;
     border: none;
     margin-top: 1rem;
