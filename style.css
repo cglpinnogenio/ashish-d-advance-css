@@ -54,7 +54,9 @@ body{
     align-items: center;
 }
 .heading{
-    width: 100%;
+    /* width: 100%; */
+    max-width: 1400px;
+    margin: auto;
     min-height: 777px;
     display: flex;
     flex-wrap: wrap;
@@ -89,7 +91,9 @@ span{
 /* section two */
 
 .section-two{
-    width: 100%;
+    /* width: 100%; */
+    max-width: 1400px;
+    margin: auto;
  
 }
 
@@ -188,7 +192,9 @@ span{
 /* section three */
 
 .section-three{
-    width: 100%;
+    /* width: 100%; */
+    max-width: 1400px;
+    margin: auto;
    
 }
 
@@ -216,6 +222,11 @@ span{
 
 
 /* section four */
+
+.section-four{
+    max-width: 1400px;
+    margin: auto;
+}
 
 .grid-container-four{
     display: grid;
@@ -262,6 +273,7 @@ span{
     background-size: cover;
     display: flex;
 }
+
 .s5-card1,.s5-card2{
     background-color: #fff;
     width: 14%;
@@ -285,6 +297,8 @@ span{
 .section-six{
     color: #fff;
     background-color: #384353;
+    max-width: 1400px;
+    margin: auto;
 }
 
 
@@ -405,6 +419,8 @@ span{
 .section-seven{
     background-color:#384353 ;
     color: #fff;
+    max-width: 1400px;
+    margin: auto;
 }
 
 .grid-container-three,.grid-container-seven {
@@ -433,7 +449,10 @@ span{
 
 
 /* section eight */
-
+.s8-container{
+    max-width: 1400px;
+    margin: auto;
+}
 
  .s8-g1 {
  
@@ -545,6 +564,11 @@ span{
 
 /* section-nine */
 
+.section-nine{
+    max-width: 1400px;
+    margin: auto;
+}
+
 .grid-container-nine { 
     border: 1px solid; 
     display: grid;
@@ -606,7 +630,10 @@ span{
 
 /* section ten */
 
-
+.section-ten{
+    max-width: 1400px;
+    margin: auto;
+}
 
 .grid-container-ten{
      display: grid;
@@ -632,7 +659,9 @@ span{
 
 
 .section-eleven{
-    width: 100%;
+    /* width: 100%; */
+    max-width: 1400px;
+    margin: auto;
     padding-top: 4rem;
 
 
@@ -674,7 +703,9 @@ input{
 
 
 .section-twelve{
-    width: 100%;
+    /* width: 100%; */
+    max-width: 1400px;
+    margin: auto;
     padding-bottom: 2rem;
     padding-top: 2rem;
     background-color: #384353;
@@ -1174,13 +1205,14 @@ input{
  .s8-g1 {
 
     display:block;
+    border-left: 1px solid #ebebe9;
     
     
  }
  .s8-g2 {
 
     gap: 2rem;
-    border-left: 1px solid #ebebe9;
+    border: 1px solid #ebebe9;
     padding-top: 7rem;
     padding-bottom: 6rem;
     
@@ -1189,6 +1221,7 @@ input{
  .s8-g3 {
 
     border-bottom: 1px solid #ebebe9;
+    border-right: 1px solid #ebebe9;
     display: block;
     
  }
@@ -1206,6 +1239,7 @@ input{
  .s8-grid{
    display: flex;
    flex-direction: column;
+   border: 1px solid #ebebe9;
     
  }
  .s8-g5 {
@@ -1256,7 +1290,7 @@ input{
 }
 
 .s10-c10{
-   border-left: 1px solid #ebebe9;
+   border: 1px solid #ebebe9;
  
 }
 .section-eleven{
@@ -1277,4 +1311,5 @@ input{
 .section-twelve{
     padding-top: 0;
 }
+
 }
